@@ -1,0 +1,37 @@
+{
+  "name": "vue-fragment-plus",
+  "version": "1.0.0",
+  "description": "fragment component for vue3",
+  "main": "dist/vue-fragment.min.js",
+  "module": "dist/vue-fragment.esm.js",
+  "global": "Fragment",
+  "scripts": {
+    "build": "node ./rollup.build.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue3",
+    "fragment",
+    "fragment-plus",
+    "component"
+  ],
+  "author": "supanpan",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "files": [
+    "*.md",
+    "**/*.js"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.60.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-minify-es": "^1.1.1"
+  }
+}
