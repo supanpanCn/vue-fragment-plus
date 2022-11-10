@@ -6,6 +6,3 @@ export const Fragment = {
     Vue.component('Fragment', component)
   }
 }
-export default {
-  Fragment
-}
